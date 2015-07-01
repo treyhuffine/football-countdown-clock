@@ -3,7 +3,7 @@ function getTime(){
   var oneHour = 60 * 60 * 1000;
   var oneMinute = 60 * 1000;
   var now = Date.now();
-  var kickoff = new Date(2015, 8, 5).getTime() + (oneHour * 16);
+  var kickoff = new Date(2015, 8, 5).getTime() + (oneHour * 12);
   var totalSeconds = kickoff - now;
 
   var daysLeft = Math.floor(totalSeconds / oneDay);
