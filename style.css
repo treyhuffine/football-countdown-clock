@@ -43,7 +43,7 @@ body{
   width: 100vw;
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 800px) {
     body {
       background-color: green;
       background-image: url('http://onlineathens.com/sites/default/files/imagecache/full/13751649.jpg');
@@ -70,7 +70,7 @@ body{
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
     body {
       background-color: white;
       background-image: url('http://picnic-basket.com/assets/images/ven/bsi/collegiate/magnets/58721.jpg');
