@@ -3,7 +3,7 @@ function getTime(){
   var oneHour = 60 * 60 * 1000;
   var oneMinute = 60 * 1000;
   var now = Date.now();
-  var kickoff = new Date(2015, 8, 5).getTime() + (oneHour *9);
+  var kickoff = new Date(2015, 8, 5).getTime() + (oneHour * 9);
   var totalSeconds = kickoff - now;
 
   var daysLeft = Math.floor(totalSeconds / oneDay);
@@ -23,16 +23,6 @@ function getTime(){
 
   return timeLeft;
 }
-
-var G = React.createClass({
-  render: function(){
-    return (
-      <div className='versus'>
-        <img className='logo' src='http://media.cmgdigital.com/shared/img/photos/2013/09/27/b2/6a/090813_uga_football_13.JPG'/>
-      </div>
-    )
-  }
-})
 
 var Card = React.createClass({
   getInitialState: function(){
