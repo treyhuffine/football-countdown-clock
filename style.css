@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body{
-  background-image: url('img/hurd.jpg');
+  background-image: url('img/de3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
 }
@@ -19,7 +20,7 @@ body{
   display: inline-block;
   text-align: center;
   margin: 10% 1% 0 0;
-  margin-top: 40%;
+  margin-top: 80vh;
   text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
   font-size: 6em;
   background-size: 100vh 100vw;
@@ -51,7 +52,7 @@ body{
     }
     h2{
       font-size: 3em;
-      padding-top: 50%;
+      /*padding-top: 50%;*/
     }
 }
 
@@ -63,9 +64,8 @@ body{
     }
     h2{
       font-size: 1.5em;
-      padding-top: 90%;
-      color: Linen;
-      text-shadow: -1px 0 #f77f00, 0 1px #f77f00, 2px 0 #f77f00, 0 -1px #f77f00;
+      color: #f77f00;
+      text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
 
     }
 }
@@ -80,7 +80,7 @@ body{
 
     h2{
       font-size: 0.25em;
-      padding-top: 90%;
-      color: black;
+      color: #f77f00;
+      text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
     }
 }
