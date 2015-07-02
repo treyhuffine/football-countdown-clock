@@ -1,2 +1,2 @@
-# DawgDaysOfSummer
-## Evan Gatchell
+# Football Countdown Clock
+
