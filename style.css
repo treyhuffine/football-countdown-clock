@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body{
-  background-image: url('http://nflrt.com/wp-content/uploads/2015/05/Leonard-Floyd-DEOLB-Georgia-Scott-Cunningham.jpg');
+  background-image: url('img/hurd.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Oswald', sans-serif;
@@ -46,7 +46,7 @@ body{
 @media screen and (max-width: 800px) {
     body {
       background-color: green;
-      background-image: url('http://onlineathens.com/sites/default/files/imagecache/full/13751649.jpg');
+      background-image: url('img/dobbs1.jpg');
       font-size: 1.1em;
     }
     h2{
@@ -58,14 +58,14 @@ body{
 @media screen and (max-width: 400px) {
     body {
       background-color: white;
-      background-image: url('http://www4.pictures.zimbio.com/gi/Malcolm+Mitchell+Georgia+v+Florida+36qmEMvfiNZl.jpg');
+      background-image: url('img/north.jpg');
       font-size: 0.5em;
     }
     h2{
       font-size: 1.5em;
       padding-top: 90%;
       color: Linen;
-      /* text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black; */
+      text-shadow: -1px 0 #f77f00, 0 1px #f77f00, 2px 0 #f77f00, 0 -1px #f77f00;
 
     }
 }
@@ -73,7 +73,7 @@ body{
 @media screen and (max-width: 250px) {
     body {
       background-color: white;
-      background-image: url('http://picnic-basket.com/assets/images/ven/bsi/collegiate/magnets/58721.jpg');
+      background-image: url('img/north.jpg');
       background-size: 100vw;
       font-size: 0.45em;
     }
