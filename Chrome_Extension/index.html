@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="countdown">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UT Countdown Football | Go Vols</title>
+</head>
+
+<body id='body' ng-controller="MainCtrl">
+
+  <div class="container">
+    <div id="root" <div id='main'>
+      <div class='col-xs-6 col-xs-offset-3 col-md-8 col-md-offset-2 timer'>
+        <h2>{{currentTime.daysLeft}} :</h2>
+        <h2>{{currentTime.hoursLeft}} :</h2>
+        <h2>{{currentTime.minutesLeft}} :</h2>
+        <h2>{{currentTime.secondsLeft}}</h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link href="bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="angular.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

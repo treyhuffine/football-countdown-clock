@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body{
+  background-image: url('img/de3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  min-width: 700px !important;
+  min-height: 700px;
+}
+.timer{
+  text-align: center;
+  color: #ff8200;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer > h2{
+  display: inline-block;
+  text-align: center;
+  margin: 10% 1% 0 0;
+  margin-top: 78vh;
+  text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
+  font-size: 6em;
+  background-size: 100vh 100vw;
+}
+
+.logo{
+  height: 7em;
+}
+
+.versus > img{
+  display: inline-block;
+}
+
+#blah{
+  background-color: rgba(0,0,0,.5);
+  height: 100vh;
+}
+
+.photo{
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+      background-color: green;
+      background-image: url('img/dobbs1.jpg');
+      font-size: .8em;
+    }
+    h2{
+      font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color: white;
+      background-image: url('img/north.jpg');
+      font-size: 0.5em;
+    }
+    h2{
+      font-size: 1.5em;
+      color: #f77f00;
+      text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
+
+    }
+}
+
+@media screen and (max-width: 250px) {
+    body {
+      background-color: white;
+      background-image: url('img/north.jpg');
+      background-size: 100vw;
+      font-size: 0.45em;
+    }
+
+    h2{
+      font-size: 0.25em;
+      color: #f77f00;
+      text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
+    }
+}
