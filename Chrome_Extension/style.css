@@ -7,8 +7,9 @@ body{
   background-position: center center;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  min-width: 700px !important;
-  min-height: 700px;
+  height: 600px !important;
+  width: 800px !important;
+  overflow: hidden;
 }
 .timer{
   text-align: center;
@@ -49,7 +50,7 @@ body{
 @media screen and (max-width: 800px) {
     body {
       background-color: green;
-      background-image: url('img/dobbs1.jpg');
+      background-image: url('img/hurd2.jpg');
       font-size: .8em;
     }
     h2{
