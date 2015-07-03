@@ -1,2 +1,2 @@
 # Football Countdown Clock
-Football clock for UT football written in React with Chrome Extension in Angular
+Football countdown clock for UT football written in React with Chrome Extension in Angular
