@@ -2,6 +2,7 @@
   "manifest_version": 2,
 
   "name": "UT Football Countdown",
+  "short_name": "Vols",
   "description": "This extensions counts down the time until UT football",
   "version": "1.0",
 
