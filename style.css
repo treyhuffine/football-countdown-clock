@@ -60,7 +60,7 @@ body{
     body {
       background-color: white;
       background-image: url('img/north.jpg');
-      font-size: 0.5em;
+      /*font-size: 0.5em;*/
     }
     h2{
       font-size: 1.5em;
@@ -75,7 +75,7 @@ body{
       background-color: white;
       background-image: url('img/north.jpg');
       background-size: 100vw;
-      font-size: 0.45em;
+      /*font-size: 0.45em;*/
     }
 
     h2{
