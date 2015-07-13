@@ -16,7 +16,7 @@ body{
   margin: 0;
 }
 
-.timer > h2{
+.timer h2{
   display: inline-block;
   text-align: center;
   margin: 10% 1% 0 0;
@@ -50,8 +50,8 @@ body{
       background-image: url('img/dobbs1.jpg');
       font-size: 1.1em;
     }
-    h2{
-      font-size: 3em;
+    .timer h2{
+      font-size: 4em;
       /*padding-top: 50%;*/
     }
 }
@@ -62,8 +62,8 @@ body{
       background-image: url('img/north.jpg');
       /*font-size: 0.5em;*/
     }
-    h2{
-      font-size: 1.5em;
+    .timer h2{
+      font-size: 4em !important;
       color: #f77f00;
       text-shadow: -1px 0 white, 0 1px white, 2px 0 white, 0 -1px white;
 
