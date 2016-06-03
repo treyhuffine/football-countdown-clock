@@ -5,7 +5,7 @@ var app = angular.module("countdown", [])
     var oneHour = 60 * 60 * 1000;
     var oneMinute = 60 * 1000;
     var now = Date.now();
-    var kickoff = new Date(2016, 8, 1).getTime() + (oneHour * 18);
+    var kickoff = new Date(2016, 8, 1).getTime() + (oneHour * 17);
     var totalSeconds = kickoff - now;
 
     var daysLeft = Math.floor(totalSeconds / oneDay);
